@@ -1,0 +1,7 @@
+.c_link {
+   color: #000;
+}
+.c_link:hover{
+   font-weight:normal !important;
+   color: #444;
+}
