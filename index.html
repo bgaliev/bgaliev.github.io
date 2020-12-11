@@ -30,6 +30,10 @@
         .c_link:hover {
             color: #555;
         }
+
+        .experience_block{
+            font-size:0.9em;
+        }
     </style>
 </head>
 
@@ -37,7 +41,7 @@
     <div class="container custom-container mt-5">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <h3>Beksultan Galiev</h3>
+                <h4>Beksultan Galiev</h4>
                 <img src="assets/img/profile.png" class="img-thumbnail img-fluid" />
                 <table class="table table-borderless table-sm mt-2">
                     <tbody>
@@ -62,14 +66,14 @@
             </div>
             <div class="offset-md-1 offset-lg-1 offset-xl-1 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                 <div class="mb-3">
-                    <h3>Summary</h3>
+                    <h4>Summary</h4>
                     <p>
                         Experienced .NET Developer with a demonstrated history of working in the information technology and services industry. Skilled in .NET, ASP.NET Core and C#. Strong engineering professional with a Bachelor’s degree focused in Computer Software Engineering
                         from Kyrgyzskij Rossijskij-Slavjanskij Universitet.
                     </p>
                 </div>
                 <div class="mb-3">
-                    <h3>Experience</h3>
+                    <h4>Experience</h4>
                     <div class="media">
                         <img class="align-self-center mr-3" style="max-width:64px;" src="assets/img/eic.png" alt="THE EIC">
                         <div class="media-body">
@@ -80,6 +84,24 @@
                                 <span class="text-secondary"> Bishkek, Kyrgyzstan</span> </p>
                         </div>
                     </div>
+                    <div class="text-secondary experience_block">
+                            <ul>
+                                <li>
+                                    Development of various open-source SDKs for the <a target="_blank" href="https://github.com/nordic-institute/X-Road">X-Road system</a> on Java and .NET Core platforms
+                                    <ul>
+                                        <li>libraries for reading and parsing the global X-Road configuration.</li>
+                                        <li>libraries for developing SOAP services for X-Road on the Spring Boot platform.</li>
+                                        <li>utilities for collecting and analyzing request data on .NET Core platform and Postgres.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Development of software modules for user authentication using devices that support PKCS #11
+                                </li>
+                                <li>
+                                    Development of a system that implements the SSO principle, using the OIDC protocol (based on IdentityServer4)
+                                </li>
+                            </ul>
+                    </div>
                     <div class="media">
                         <img class="align-self-center mr-3" style="max-width:64px;" src="assets/img/zensoft.png" alt="THE EIC">
                         <div class="media-body">
@@ -89,9 +111,20 @@
                                 <span class="text-secondary"> Bishkek, Kyrgyzstan</span> </p>
                         </div>
                     </div>
+                    <div class="text-secondary experience_block">
+                            <ul>
+                                <li>
+                                    Development of a system for tracking task changes in the JIRA system
+                                    <ul>
+                                        <li>Development of modules for interacting with the JIRA API</li>
+                                        <li>Designing a database structure for storing domain models data</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </div>
                 </div>
                 <div class="mb-3">
-                    <h3>Education</h3>
+                    <h4>Education</h4>
                     <div class="media">
                         <img class="align-self-center mr-3" style="max-width:64px;" src="assets/img/noimg.png" alt="THE EIC">
                         <div class="media-body">
@@ -102,7 +135,7 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <h3>Licenses & Certificates</h3>
+                    <h4>Licenses & Certificates</h4>
                     <div class="media">
                         <img class="align-self-center mr-3" style="max-width:64px;" src="assets/img/c-sharp.png" alt="THE EIC">
                         <div class="media-body">
@@ -113,17 +146,24 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <h3>Skills</h3>
+                    <h4>Skills</h4>
                     <ul>
                         <li>.NET/C#, Java, Kotlin, JavaScript</li>
+                        <li>Postgres, Microsoft SQL Server, MySQL, SQLite3</li>
+                        <li>WCF(SOAP), Web API (REST), OAuth2.0/OIDC</li>
+                        <li>ASP.NET Identity,IdentityServer4, TPL, AutoMapper, FluentValidation, EntityFrameworkCore</li>
+                        <li>ElasticSearch, MongoDB</li>
+                        <li>RabbitMQ, IBM MQ, ActiveMQ</li>
                         <li>HTML5, XML (XSD), CSS3</li>
-                        <li>Postgres, SQL Server, MySQL, SQLite3</li>
-                        <li>WCF(SOAP), Web API (REST)</li>
+                        <li>Design Patterns, SOLID, Data Structures, GNU/Linux, Git, PKI, PKCS#11, PKCS#7</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="mt-5 border-top bg-light" style="min-height:120px;">
+
+    </footer>
 </body>
 
 </html>
